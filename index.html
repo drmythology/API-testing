@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+</head>
+<style>
+    form {
+        display: flex;
+        flex-direction: column;
+        padding: 4vh 3vh;
+    }
+    input {
+        display: inline-block;
+        width: 200px;
+    }
+    button {
+        width: 80px;
+    }
+</style>
+<body>
+    <form action="/" method="post">
+        <label for="cityInput">City Name: </label>
+        <input id="cityInput" type="text" name="cityName">
+        <label for="authentication">API key: </label>
+        <input id="authentication" type="text" name="authKey">
+        <button type="submit">Submit</button>
+    </form>
+</body>
+</html>
